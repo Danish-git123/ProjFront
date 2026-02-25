@@ -27,6 +27,8 @@ export default function Dashboard() {
         return savedPatient ? JSON.parse(savedPatient) : null;
     });
 
+    
+
     const fetchQueue = async () => {
         setLoading(true);
         setError("");
